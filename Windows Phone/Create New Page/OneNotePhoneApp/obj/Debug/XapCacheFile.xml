@@ -1,0 +1,22 @@
+﻿<xapCache source="D:\Development\Demos\OneNote\OneNotePhoneApp\OneNotePhoneApp\Bin\Debug\OneNotePhoneApp_Debug_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="2014-05-24 08:08:23 PM">
+  <file source="D:\Development\Demos\OneNote\OneNotePhoneApp\OneNotePhoneApp\obj\Debug\OneNotePhoneApp.dll" archivePath="OneNotePhoneApp.dll" lastWriteTime="2014-05-24 08:08:22 PM" />
+  <file source="D:\Development\Demos\OneNote\OneNotePhoneApp\OneNotePhoneApp\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="2014-05-11 09:02:03 PM" />
+  <file source="D:\Development\Demos\OneNote\OneNotePhoneApp\OneNotePhoneApp\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="2014-05-11 09:02:03 PM" />
+  <file source="D:\Development\Demos\OneNote\OneNotePhoneApp\OneNotePhoneApp\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="2014-05-11 09:02:03 PM" />
+  <file source="D:\Development\Demos\OneNote\OneNotePhoneApp\OneNotePhoneApp\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="2014-05-11 09:02:03 PM" />
+  <file source="D:\Development\Demos\OneNote\OneNotePhoneApp\OneNotePhoneApp\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="2014-05-11 09:02:03 PM" />
+  <file source="D:\Development\Demos\OneNote\OneNotePhoneApp\OneNotePhoneApp\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="2014-05-11 09:15:36 PM" />
+  <file source="D:\Development\Demos\OneNote\OneNotePhoneApp\OneNotePhoneApp\Bin\Debug\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="2014-05-11 09:02:03 PM" />
+  <file source="D:\Development\Demos\OneNote\OneNotePhoneApp\OneNotePhoneApp\Bin\Debug\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="2014-05-11 09:02:03 PM" />
+  <file source="D:\Development\Demos\OneNote\OneNotePhoneApp\packages\LiveSDK.5.6\lib\WindowsPhone8\Microsoft.Live.Controls.dll" archivePath="Microsoft.Live.Controls.dll" lastWriteTime="2014-05-11 09:02:21 PM" />
+  <file source="D:\Development\Demos\OneNote\OneNotePhoneApp\packages\LiveSDK.5.6\lib\WindowsPhone8\Microsoft.Live.dll" archivePath="Microsoft.Live.dll" lastWriteTime="2014-05-11 09:02:21 PM" />
+  <file source="D:\Development\Demos\OneNote\OneNotePhoneApp\packages\Newtonsoft.Json.6.0.3\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.dll" archivePath="Newtonsoft.Json.dll" lastWriteTime="2014-05-11 09:02:30 PM" />
+  <file source="D:\Development\Demos\OneNote\OneNotePhoneApp\packages\Microsoft.Net.Http.2.2.22\lib\sl4-windowsphone71\System.Net.Http.dll" archivePath="System.Net.Http.dll" lastWriteTime="2014-05-11 09:02:48 PM" />
+  <file source="D:\Development\Demos\OneNote\OneNotePhoneApp\packages\Microsoft.Net.Http.2.2.22\lib\sl4-windowsphone71\System.Net.Http.Extensions.dll" archivePath="System.Net.Http.Extensions.dll" lastWriteTime="2014-05-11 09:02:48 PM" />
+  <file source="D:\Development\Demos\OneNote\OneNotePhoneApp\packages\Microsoft.Net.Http.2.2.22\lib\sl4-windowsphone71\System.Net.Http.Primitives.dll" archivePath="System.Net.Http.Primitives.dll" lastWriteTime="2014-05-11 09:02:48 PM" />
+  <file source="D:\Development\Demos\OneNote\OneNotePhoneApp\packages\Newtonsoft.Json.6.0.3\lib\portable-net45+wp80+win8+wpa81\Newtonsoft.Json.xml" archivePath="Newtonsoft.Json.xml" lastWriteTime="2014-05-11 09:02:30 PM" />
+  <file source="D:\Development\Demos\OneNote\OneNotePhoneApp\packages\Microsoft.Net.Http.2.2.22\lib\sl4-windowsphone71\System.Net.Http.xml" archivePath="System.Net.Http.xml" lastWriteTime="2014-05-11 09:02:48 PM" />
+  <file source="D:\Development\Demos\OneNote\OneNotePhoneApp\packages\Microsoft.Net.Http.2.2.22\lib\sl4-windowsphone71\System.Net.Http.Extensions.xml" archivePath="System.Net.Http.Extensions.xml" lastWriteTime="2014-05-11 09:02:48 PM" />
+  <file source="D:\Development\Demos\OneNote\OneNotePhoneApp\packages\Microsoft.Net.Http.2.2.22\lib\sl4-windowsphone71\System.Net.Http.Primitives.xml" archivePath="System.Net.Http.Primitives.xml" lastWriteTime="2014-05-11 09:02:48 PM" />
+  <file source="D:\Development\Demos\OneNote\OneNotePhoneApp\OneNotePhoneApp\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="2014-05-11 09:02:09 PM" />
+</xapCache>

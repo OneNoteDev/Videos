@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsStoreApp", "WindowsStoreApp\WindowsStoreApp.csproj", "{F88ADBA8-A2AE-4D06-B60E-65CF6AE397FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F88ADBA8-A2AE-4D06-B60E-65CF6AE397FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F88ADBA8-A2AE-4D06-B60E-65CF6AE397FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F88ADBA8-A2AE-4D06-B60E-65CF6AE397FE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F88ADBA8-A2AE-4D06-B60E-65CF6AE397FE}.Debug|ARM.ActiveCfg = Debug|ARM
+		{F88ADBA8-A2AE-4D06-B60E-65CF6AE397FE}.Debug|ARM.Build.0 = Debug|ARM
+		{F88ADBA8-A2AE-4D06-B60E-65CF6AE397FE}.Debug|ARM.Deploy.0 = Debug|ARM
+		{F88ADBA8-A2AE-4D06-B60E-65CF6AE397FE}.Debug|x64.ActiveCfg = Debug|x64
+		{F88ADBA8-A2AE-4D06-B60E-65CF6AE397FE}.Debug|x64.Build.0 = Debug|x64
+		{F88ADBA8-A2AE-4D06-B60E-65CF6AE397FE}.Debug|x64.Deploy.0 = Debug|x64
+		{F88ADBA8-A2AE-4D06-B60E-65CF6AE397FE}.Debug|x86.ActiveCfg = Debug|x86
+		{F88ADBA8-A2AE-4D06-B60E-65CF6AE397FE}.Debug|x86.Build.0 = Debug|x86
+		{F88ADBA8-A2AE-4D06-B60E-65CF6AE397FE}.Debug|x86.Deploy.0 = Debug|x86
+		{F88ADBA8-A2AE-4D06-B60E-65CF6AE397FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F88ADBA8-A2AE-4D06-B60E-65CF6AE397FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F88ADBA8-A2AE-4D06-B60E-65CF6AE397FE}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{F88ADBA8-A2AE-4D06-B60E-65CF6AE397FE}.Release|ARM.ActiveCfg = Release|ARM
+		{F88ADBA8-A2AE-4D06-B60E-65CF6AE397FE}.Release|ARM.Build.0 = Release|ARM
+		{F88ADBA8-A2AE-4D06-B60E-65CF6AE397FE}.Release|ARM.Deploy.0 = Release|ARM
+		{F88ADBA8-A2AE-4D06-B60E-65CF6AE397FE}.Release|x64.ActiveCfg = Release|x64
+		{F88ADBA8-A2AE-4D06-B60E-65CF6AE397FE}.Release|x64.Build.0 = Release|x64
+		{F88ADBA8-A2AE-4D06-B60E-65CF6AE397FE}.Release|x64.Deploy.0 = Release|x64
+		{F88ADBA8-A2AE-4D06-B60E-65CF6AE397FE}.Release|x86.ActiveCfg = Release|x86
+		{F88ADBA8-A2AE-4D06-B60E-65CF6AE397FE}.Release|x86.Build.0 = Release|x86
+		{F88ADBA8-A2AE-4D06-B60E-65CF6AE397FE}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
