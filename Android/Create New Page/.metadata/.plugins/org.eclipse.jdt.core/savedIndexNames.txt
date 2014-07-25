@@ -1,0 +1,7 @@
+INDEX VERSION 1.127+C:\Users\Michael.Hancock\Downloads\New folder (3)\OneNoteSample\.metadata\.plugins\org.eclipse.jdt.core
+318813597.index
+2608976214.index
+2382626706.index
+77262011.index
+983067953.index
+1956723311.index
