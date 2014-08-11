@@ -1,0 +1,34 @@
+﻿@model OneNoteWebApp.Models.OneNoteCreateViewModel
+
+@{
+    ViewBag.Title = "NewOneNotePage";
+}
+
+<h2>NewOneNotePage</h2>
+
+<div>
+    <h4>OneNoteCreateViewModel</h4>
+	<hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ResponseMessage)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ResponseMessage)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NewPageLink)
+        </dt>
+
+        <dd>
+            <a href="@Html.DisplayFor(model => model.NewPageLink)">New Page</a>
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
