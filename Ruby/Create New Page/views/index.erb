@@ -1,0 +1,45 @@
+<html>
+<head>
+<title>Ruby/OneNote Demo</title>
+<link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+<div class="container">
+  <h1>Ruby OneNote/Demo</h1>
+
+  <% if flash[:notice] %>
+    <p class="bg-success"><%= flash[:notice] %></p>
+  <% end %>
+
+  <% if flash[:error]%>
+    <p class="bg-danger"><%= flash[:error] %></p>
+  <% end %>
+
+  <% if logged_in? %>
+    <form action="/create_note" method="post" class="form-horizontal">
+    <fieldset>
+      
+      <div class="form-group">
+        <label for="title" class="control-label">Title</label>
+        <input type="text" name="title" class="form-control input-lg"/>
+      </div>
+
+      <div class="form-group">
+        <label for="body" class="control-label">Body</label>
+        <textarea name="body" rows="20" class="form-control input-lg"></textarea>
+      </div>
+
+      <div class="form-group">
+        <button type="submit" class="btn btn-lg btn-primary">Create</button>
+      </div>
+    </fieldset>
+    </form>
+  <% else %>
+    <p><a class="btn btn-lg btn-primary" href="<%= LIVE_LOGIN_URL %>">Login with MS Live</a></p>
+  <% end %>
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+</body>
+</html>

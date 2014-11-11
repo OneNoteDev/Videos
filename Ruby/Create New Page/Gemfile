@@ -1,0 +1,6 @@
+source 'http://rubygems.org' 
+
+gem 'sinatra' 
+gem 'sinatra-contrib' 
+gem 'sinatra-flash'
+gem 'oauth2'
