@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7740C2F192E8B520064F302 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7740C2E192E8B520064F302 /* Foundation.framework */; };
+		F7740C31192E8B520064F302 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7740C30192E8B520064F302 /* CoreGraphics.framework */; };
+		F7740C33192E8B520064F302 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7740C32192E8B520064F302 /* UIKit.framework */; };
+		F7740C39192E8B520064F302 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7740C37192E8B520064F302 /* InfoPlist.strings */; };
+		F7740C3B192E8B520064F302 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7740C3A192E8B520064F302 /* main.m */; };
+		F7740C3F192E8B520064F302 /* HGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7740C3E192E8B520064F302 /* HGAppDelegate.m */; };
+		F7740C42192E8B520064F302 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7740C40192E8B520064F302 /* Main.storyboard */; };
+		F7740C45192E8B520064F302 /* HGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7740C44192E8B520064F302 /* HGViewController.m */; };
+		F7740C47192E8B520064F302 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7740C46192E8B520064F302 /* Images.xcassets */; };
+		F7740C4E192E8B520064F302 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7740C4D192E8B520064F302 /* XCTest.framework */; };
+		F7740C4F192E8B520064F302 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7740C2E192E8B520064F302 /* Foundation.framework */; };
+		F7740C50192E8B520064F302 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7740C32192E8B520064F302 /* UIKit.framework */; };
+		F7740C58192E8B520064F302 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7740C56192E8B520064F302 /* InfoPlist.strings */; };
+		F7740C5A192E8B520064F302 /* OneNoteDemoAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7740C59192E8B520064F302 /* OneNoteDemoAppTests.m */; };
+		F7740C64192E8B620064F302 /* LiveSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7740C63192E8B620064F302 /* LiveSDK.framework */; };
+		F7740C65192E8B780064F302 /* LiveSDK.framework in Resources */ = {isa = PBXBuildFile; fileRef = F7740C63192E8B620064F302 /* LiveSDK.framework */; };
+		F7740C68192E8B890064F302 /* ISO8601DateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = F7740C67192E8B890064F302 /* ISO8601DateFormatter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7740C51192E8B520064F302 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F7740C23192E8B520064F302 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7740C2A192E8B520064F302;
+			remoteInfo = OneNoteDemoApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F7740C2B192E8B520064F302 /* OneNoteDemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneNoteDemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7740C2E192E8B520064F302 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F7740C30192E8B520064F302 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F7740C32192E8B520064F302 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F7740C36192E8B520064F302 /* OneNoteDemoApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OneNoteDemoApp-Info.plist"; sourceTree = "<group>"; };
+		F7740C38192E8B520064F302 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F7740C3A192E8B520064F302 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7740C3C192E8B520064F302 /* OneNoteDemoApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OneNoteDemoApp-Prefix.pch"; sourceTree = "<group>"; };
+		F7740C3D192E8B520064F302 /* HGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HGAppDelegate.h; sourceTree = "<group>"; };
+		F7740C3E192E8B520064F302 /* HGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HGAppDelegate.m; sourceTree = "<group>"; };
+		F7740C41192E8B520064F302 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7740C43192E8B520064F302 /* HGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HGViewController.h; sourceTree = "<group>"; };
+		F7740C44192E8B520064F302 /* HGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HGViewController.m; sourceTree = "<group>"; };
+		F7740C46192E8B520064F302 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F7740C4C192E8B520064F302 /* OneNoteDemoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneNoteDemoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7740C4D192E8B520064F302 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F7740C55192E8B520064F302 /* OneNoteDemoAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OneNoteDemoAppTests-Info.plist"; sourceTree = "<group>"; };
+		F7740C57192E8B520064F302 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F7740C59192E8B520064F302 /* OneNoteDemoAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneNoteDemoAppTests.m; sourceTree = "<group>"; };
+		F7740C63192E8B620064F302 /* LiveSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LiveSDK.framework; sourceTree = "<group>"; };
+		F7740C66192E8B890064F302 /* ISO8601DateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISO8601DateFormatter.h; sourceTree = "<group>"; };
+		F7740C67192E8B890064F302 /* ISO8601DateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISO8601DateFormatter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7740C28192E8B520064F302 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7740C31192E8B520064F302 /* CoreGraphics.framework in Frameworks */,
+				F7740C33192E8B520064F302 /* UIKit.framework in Frameworks */,
+				F7740C2F192E8B520064F302 /* Foundation.framework in Frameworks */,
+				F7740C64192E8B620064F302 /* LiveSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7740C49192E8B520064F302 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7740C4E192E8B520064F302 /* XCTest.framework in Frameworks */,
+				F7740C50192E8B520064F302 /* UIKit.framework in Frameworks */,
+				F7740C4F192E8B520064F302 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7740C22192E8B520064F302 = {
+			isa = PBXGroup;
+			children = (
+				F7740C34192E8B520064F302 /* OneNoteDemoApp */,
+				F7740C53192E8B520064F302 /* OneNoteDemoAppTests */,
+				F7740C2D192E8B520064F302 /* Frameworks */,
+				F7740C2C192E8B520064F302 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7740C2C192E8B520064F302 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7740C2B192E8B520064F302 /* OneNoteDemoApp.app */,
+				F7740C4C192E8B520064F302 /* OneNoteDemoAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7740C2D192E8B520064F302 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7740C63192E8B620064F302 /* LiveSDK.framework */,
+				F7740C2E192E8B520064F302 /* Foundation.framework */,
+				F7740C30192E8B520064F302 /* CoreGraphics.framework */,
+				F7740C32192E8B520064F302 /* UIKit.framework */,
+				F7740C4D192E8B520064F302 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7740C34192E8B520064F302 /* OneNoteDemoApp */ = {
+			isa = PBXGroup;
+			children = (
+				F7740C66192E8B890064F302 /* ISO8601DateFormatter.h */,
+				F7740C67192E8B890064F302 /* ISO8601DateFormatter.m */,
+				F7740C3D192E8B520064F302 /* HGAppDelegate.h */,
+				F7740C3E192E8B520064F302 /* HGAppDelegate.m */,
+				F7740C40192E8B520064F302 /* Main.storyboard */,
+				F7740C43192E8B520064F302 /* HGViewController.h */,
+				F7740C44192E8B520064F302 /* HGViewController.m */,
+				F7740C46192E8B520064F302 /* Images.xcassets */,
+				F7740C35192E8B520064F302 /* Supporting Files */,
+			);
+			path = OneNoteDemoApp;
+			sourceTree = "<group>";
+		};
+		F7740C35192E8B520064F302 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7740C36192E8B520064F302 /* OneNoteDemoApp-Info.plist */,
+				F7740C37192E8B520064F302 /* InfoPlist.strings */,
+				F7740C3A192E8B520064F302 /* main.m */,
+				F7740C3C192E8B520064F302 /* OneNoteDemoApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F7740C53192E8B520064F302 /* OneNoteDemoAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F7740C59192E8B520064F302 /* OneNoteDemoAppTests.m */,
+				F7740C54192E8B520064F302 /* Supporting Files */,
+			);
+			path = OneNoteDemoAppTests;
+			sourceTree = "<group>";
+		};
+		F7740C54192E8B520064F302 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7740C55192E8B520064F302 /* OneNoteDemoAppTests-Info.plist */,
+				F7740C56192E8B520064F302 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7740C2A192E8B520064F302 /* OneNoteDemoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7740C5D192E8B520064F302 /* Build configuration list for PBXNativeTarget "OneNoteDemoApp" */;
+			buildPhases = (
+				F7740C27192E8B520064F302 /* Sources */,
+				F7740C28192E8B520064F302 /* Frameworks */,
+				F7740C29192E8B520064F302 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneNoteDemoApp;
+			productName = OneNoteDemoApp;
+			productReference = F7740C2B192E8B520064F302 /* OneNoteDemoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7740C4B192E8B520064F302 /* OneNoteDemoAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7740C60192E8B520064F302 /* Build configuration list for PBXNativeTarget "OneNoteDemoAppTests" */;
+			buildPhases = (
+				F7740C48192E8B520064F302 /* Sources */,
+				F7740C49192E8B520064F302 /* Frameworks */,
+				F7740C4A192E8B520064F302 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7740C52192E8B520064F302 /* PBXTargetDependency */,
+			);
+			name = OneNoteDemoAppTests;
+			productName = OneNoteDemoAppTests;
+			productReference = F7740C4C192E8B520064F302 /* OneNoteDemoAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7740C23192E8B520064F302 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HG;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = MyOrganization.com;
+				TargetAttributes = {
+					F7740C4B192E8B520064F302 = {
+						TestTargetID = F7740C2A192E8B520064F302;
+					};
+				};
+			};
+			buildConfigurationList = F7740C26192E8B520064F302 /* Build configuration list for PBXProject "OneNoteDemoApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7740C22192E8B520064F302;
+			productRefGroup = F7740C2C192E8B520064F302 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7740C2A192E8B520064F302 /* OneNoteDemoApp */,
+				F7740C4B192E8B520064F302 /* OneNoteDemoAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7740C29192E8B520064F302 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7740C65192E8B780064F302 /* LiveSDK.framework in Resources */,
+				F7740C47192E8B520064F302 /* Images.xcassets in Resources */,
+				F7740C39192E8B520064F302 /* InfoPlist.strings in Resources */,
+				F7740C42192E8B520064F302 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7740C4A192E8B520064F302 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7740C58192E8B520064F302 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7740C27192E8B520064F302 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7740C45192E8B520064F302 /* HGViewController.m in Sources */,
+				F7740C68192E8B890064F302 /* ISO8601DateFormatter.m in Sources */,
+				F7740C3B192E8B520064F302 /* main.m in Sources */,
+				F7740C3F192E8B520064F302 /* HGAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7740C48192E8B520064F302 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7740C5A192E8B520064F302 /* OneNoteDemoAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7740C52192E8B520064F302 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7740C2A192E8B520064F302 /* OneNoteDemoApp */;
+			targetProxy = F7740C51192E8B520064F302 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F7740C37192E8B520064F302 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7740C38192E8B520064F302 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F7740C40192E8B520064F302 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7740C41192E8B520064F302 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F7740C56192E8B520064F302 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7740C57192E8B520064F302 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7740C5B192E8B520064F302 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F7740C5C192E8B520064F302 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7740C5E192E8B520064F302 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OneNoteDemoApp/OneNoteDemoApp-Prefix.pch";
+				INFOPLIST_FILE = "OneNoteDemoApp/OneNoteDemoApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F7740C5F192E8B520064F302 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OneNoteDemoApp/OneNoteDemoApp-Prefix.pch";
+				INFOPLIST_FILE = "OneNoteDemoApp/OneNoteDemoApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F7740C61192E8B520064F302 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OneNoteDemoApp.app/OneNoteDemoApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OneNoteDemoApp/OneNoteDemoApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OneNoteDemoAppTests/OneNoteDemoAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F7740C62192E8B520064F302 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OneNoteDemoApp.app/OneNoteDemoApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OneNoteDemoApp/OneNoteDemoApp-Prefix.pch";
+				INFOPLIST_FILE = "OneNoteDemoAppTests/OneNoteDemoAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7740C26192E8B520064F302 /* Build configuration list for PBXProject "OneNoteDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7740C5B192E8B520064F302 /* Debug */,
+				F7740C5C192E8B520064F302 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7740C5D192E8B520064F302 /* Build configuration list for PBXNativeTarget "OneNoteDemoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7740C5E192E8B520064F302 /* Debug */,
+				F7740C5F192E8B520064F302 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F7740C60192E8B520064F302 /* Build configuration list for PBXNativeTarget "OneNoteDemoAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7740C61192E8B520064F302 /* Debug */,
+				F7740C62192E8B520064F302 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7740C23192E8B520064F302 /* Project object */;
+}
