@@ -1,0 +1,9 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="c:\development\clients\microsoft\onenote\videos\universal apps\app613\app613\app613.windowsphone\obj\debug\intermediatexaml\app613.windowsphone.exe" HashGuid="94c6bce0-bd17-37e1-978e-ed10a46b8a7a" />
+    <ReferenceAssembly PathName="c:\development\clients\microsoft\onenote\videos\universal apps\app613\packages\livesdk.5.6\windowsxaml\microsoft.live.dll" HashGuid="129ce77c-af09-9d5d-b95e-bf89af6739c7" />
+    <ReferenceAssembly PathName="c:\development\clients\microsoft\onenote\videos\universal apps\app613\packages\newtonsoft.json.6.0.6\lib\portable-net40+sl5+wp80+win8+wpa81\newtonsoft.json.dll" HashGuid="9e796421-3b84-3ec5-6e39-cb6d41d020b7" />
+    <ReferenceAssembly PathName="c:\development\clients\microsoft\onenote\videos\universal apps\app613\packages\microsoft.net.http.2.2.28\lib\wpa81\system.net.http.extensions.dll" HashGuid="794366f8-cc6d-f0fa-3d07-33b45136e193" />
+    <ReferenceAssembly PathName="c:\development\clients\microsoft\onenote\videos\universal apps\app613\packages\microsoft.net.http.2.2.28\lib\wpa81\system.net.http.primitives.dll" HashGuid="7b71418d-e056-7613-c839-85fb8f6472a6" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>
